@@ -15,6 +15,10 @@ export function fetchWeather(city) {
   //this will return promise
   const request = axios.get(url);
 
+  // here the console log will display payload with data that contains all
+  // the information required for us.
+  // console.log('Request', request );
+
   return {
     type: FETCH_WEATHER,
     paylod: request,
