@@ -10,5 +10,11 @@ td, th {
 
 /* effects the charts */
 svg {
-  height: 150px;
+  height: 180px;
+}
+
+/* effects google maps */
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
 }
