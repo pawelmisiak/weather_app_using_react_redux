@@ -1,0 +1,14 @@
+td, th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* for the search bar */
+.input-group {
+  margin: 20px 0px;
+}
+
+/* effects the charts */
+svg {
+  height: 150px;
+}
